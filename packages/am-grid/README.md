@@ -48,6 +48,8 @@
 | **`hasLine`** | `Boolean` | `N` | `true` | 是否有边框 |
 | **`itemStyle`** | `Object` | `N` | `{}` | 每个格子自定义样式 |
 | **`iconStyle`** | `Object` | `N` | `{}` | 图片自定义样式 |
+| **`gridStyle`** | `Number` | `N` | `{}` | 样式:0 默认，1，全是图片 |
+
 
 ### 事件回调
 | Event	 | Description | Parameters |

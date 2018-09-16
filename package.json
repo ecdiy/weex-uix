@@ -1,33 +1,32 @@
 {
-  "_from": "weex-amui",
-  "_id": "weex-amui@0.1.0",
+  "_from": "weex-uix@^0.1.0",
+  "_id": "weex-uix@0.1.0",
   "_inBundle": false,
-  "_integrity": "sha1-CkoV37xZUqDFIzthLEQsSe/U8Eg=",
-  "_location": "/weex-amui",
+  "_integrity": "sha512-nSTYHDnlQmnYgRgr2UO9F+vYizGhT02nKIvO+8rk8z7i/napsl0bRCUwb1+JHlLrLpkupe0AmrGZugwJ3cvN/g==",
+  "_location": "/weex-uix",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "weex-amui",
-    "name": "weex-amui",
-    "escapedName": "weex-amui",
-    "rawSpec": "",
+    "raw": "weex-uix@^0.1.0",
+    "name": "weex-uix",
+    "escapedName": "weex-uix",
+    "rawSpec": "^0.1.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^0.1.0"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/weex-amui/download/weex-amui-0.1.0.tgz",
-  "_shasum": "0a4a15dfbc5952a0c5233b612c442c49efd4f048",
-  "_spec": "weex-amui",
+  "_resolved": "https://registry.npmjs.org/weex-uix/-/weex-uix-0.1.0.tgz",
+  "_shasum": "9579b221dea59edcf651a3846c43c42d97491c52",
+  "_spec": "weex-uix@^0.1.0",
   "_where": "D:\\dev\\molove",
   "author": {
-    "name": "minghe"
+    "name": "ecdiy"
   },
   "bugs": {
-    "url": "https://github.com/hminghe/weex-amui/issues"
+    "url": "https://github.com/ecdiy/weex-uix/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -87,7 +86,7 @@
     "theme",
     "index.js"
   ],
-  "homepage": "https://github.com/hminghe/weex-amui#readme",
+  "homepage": "https://github.com/hminghe/weex-uix#readme",
   "keywords": [
     "vue",
     "weex",
@@ -97,13 +96,13 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "weex-amui",
+  "name": "weex-uix",
   "optionalDependencies": {
     "ios-deploy": "^1.9.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hminghe/weex-amui.git"
+    "url": "git+https://github.com/ecdiy/weex-uix.git"
   },
   "scripts": {
     "android": "weex run android",
