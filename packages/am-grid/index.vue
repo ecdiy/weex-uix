@@ -4,7 +4,9 @@
             <div v-for="(item, index) in row" :key="index" :class="getItemClass(item)"
                  :style="_itemStyle" @click="handleClick($event, item)">
                 <template v-if="item">
-                    <image :style="_iconStyle(item)" :src="item.icon"/>
+                    <am-icon v-if="item.icon && iconFamily!=''"
+                             :type="item.icon" :font-family="iconFamily"/>
+                    <image v-if="item.src" :style="_iconStyle(item)" :src="item.src"/>
                     <text v-if="item.text" class="am-grid-text">{{item.text}}</text>
                 </template>
             </div>
@@ -15,14 +17,12 @@
 <script>
     import Utils from '../utils'
     import AmFlex from '../am-flex'
+    import AmIcon from '../am-icon'
     import AmFlexItem from '../am-flex-item'
 
     export default {
         name: 'am-grid',
-        components: {
-            AmFlex,
-            AmFlexItem
-        },
+        components: {AmFlex, AmFlexItem, AmIcon},
         props: {
             data: {
                 type: Array,
@@ -50,6 +50,7 @@
                     return {}
                 }
             },
+            iconFamily: {type: String, default: ''},
             gridStyle: {
                 type: Number,
                 default: 0
