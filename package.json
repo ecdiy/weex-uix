@@ -1,6 +1,6 @@
 {
-  "_from": "weex-uix@^0.1.0",
-  "_id": "weex-uix@0.1.0",
+  "_from": "weex-uix@^0.1.1",
+  "_id": "weex-uix@0.1.1",
   "_inBundle": false,
   "_integrity": "sha512-nSTYHDnlQmnYgRgr2UO9F+vYizGhT02nKIvO+8rk8z7i/napsl0bRCUwb1+JHlLrLpkupe0AmrGZugwJ3cvN/g==",
   "_location": "/weex-uix",
@@ -8,12 +8,12 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "weex-uix@^0.1.0",
+    "raw": "weex-uix@^0.1.1",
     "name": "weex-uix",
     "escapedName": "weex-uix",
-    "rawSpec": "^0.1.0",
+    "rawSpec": "^0.1.1",
     "saveSpec": null,
-    "fetchSpec": "^0.1.0"
+    "fetchSpec": "^0.1.1"
   },
   "_requiredBy": [
     "/"
@@ -111,12 +111,12 @@
     "build:prod": "webpack --env.NODE_ENV=release",
     "clean": "rimraf ./release",
     "dev": "webpack --env.NODE_ENV=common --progress --watch",
-    "doc": "docsify serve",
+
     "ios": "weex run ios",
     "lint": "eslint --ext .js,.vue src  --fix",
     "pack": "npm run clean && npm run build:prod",
     "serve": "webpack-dev-server --env.NODE_ENV=development --progress",
     "start": "npm run serve"
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
